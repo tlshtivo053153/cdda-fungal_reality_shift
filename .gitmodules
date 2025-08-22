@@ -1,0 +1,4 @@
+[submodule "external/cdda"]
+	path = external/cdda
+	url = https://github.com/CleverRaven/Cataclysm-DDA.git
+	branch = 0.I-branch
