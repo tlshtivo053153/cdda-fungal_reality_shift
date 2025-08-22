@@ -6,6 +6,10 @@
 
 ## Version Number
 - Use the `v1.0.0` format for version numbers.
+  - Version numbers consist of three parts: major, minor, and patch.
+  - Increment the major version when making incompatible changes.
+  - Increment the minor version when adding or modifying features.
+  - Increment the patch version when fixing bugs.
   - Example: `v1.0`, `v2.1.3`
 
 ## ID Naming Convention
