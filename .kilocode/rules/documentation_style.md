@@ -44,6 +44,31 @@ This document provides style guidelines for writing project documentation.
 - Use bulleted lists or numbered lists to organize information.
 - Keep list items concise and use a consistent format.
 
+### Commit Messages
+
+Follow Conventional Commits format:
+
+#### Format
+`type: subject`
+
+#### Types
+- `feat`: Adding a new feature
+- `fix`: Bug fix
+- `docs`: Documentation only changes
+- `style`: Code formatting changes (no functional changes)
+- `refactor`: Code refactoring
+- `test`: Adding or modifying tests
+- `chore`: Changes to build process or auxiliary tools
+
+#### Commit Rules
+- Commit messages must be in English.
+- One commit = one logical change unit
+- When ready to commit, provide copy-pasteable commands:
+  ```sh
+  git add .
+  git commit -m "feat: add user registration API endpoint"
+  ```
+
 ## Document Maintenance
 
 - Review documents regularly and update them as needed.
