@@ -1,0 +1,10 @@
+[
+  {
+    "type": "harvest",
+    "id": "dissect_fungal_creature_sample",
+    "entries": [
+      { "drop": "fungal_spore", "type": "flesh", "mass_ratio": 0.33 },
+      { "drop": "fungal_creature_remnant", "type": "offal", "mass_ratio": 0.1 }
+    ]
+  }
+]

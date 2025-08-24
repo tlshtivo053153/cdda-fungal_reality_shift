@@ -1,0 +1,327 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_effect_main",
+    "effect": [
+      {
+        "u_add_effect": "fungal_reality_shift_active",
+        "duration": "24 hours"
+      },
+      {
+        "u_message": "You feel the world around you begin to shift and change..."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_active",
+    "recurrence": "1 minutes",
+    "global": true,
+    "condition": {
+      "and": [
+        {
+          "u_has_effect": "fungal_reality_shift_active"
+        }
+      ]
+    },
+    "effect": [
+      {
+        "run_eocs": "fungal_reality_shift_transform_terrain"
+      },
+      {
+        "u_message": "The world around you shifts and changes..."
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain",
+    "effect": [
+      {
+        "u_location_variable": { "u_val": "transform_center" },
+        "min_radius": 0,
+        "max_radius": 0
+      },
+      {
+        "weighted_list_eocs": [
+          [ "fungal_reality_shift_transform_terrain_wall", 50 ],
+          [ "fungal_reality_shift_transform_terrain_liquid", 50 ]
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_liquid",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_liquid",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_wall",
+    "terrain": [
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_concrete_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_wood_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_log_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_fungal_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_metal_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_paper_wall" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      },
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      },
+      {
+        "result": [ "t_wood_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      },
+      {
+        "result": [ "t_log_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      },
+      {
+        "result": [ "t_fungal_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      },
+      {
+        "result": [ "t_metal_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      },
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_paper_wall" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_liquid",
+    "terrain": [
+      {
+        "result": [ "t_lava" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_gasoline" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_whiskey" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_milk" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_honey" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_sap" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_lava" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_gasoline" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_whiskey" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_milk" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_honey" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_sap" ],
+        "valid_terrain": [ "t_water_dp" ]
+      }
+    ]
+  }
+]

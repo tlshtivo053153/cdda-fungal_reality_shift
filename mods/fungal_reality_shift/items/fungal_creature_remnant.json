@@ -1,0 +1,19 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fungal_creature_remnant",
+    "comestible_type": "FOOD",
+    "category": "food",
+    "name": "fungal creature remnant",
+    "description": "A strange remnant of a fungal creature. It pulses with a faint, otherworldly energy.",
+    "weight": "10 g",
+    "volume": "10 ml",
+    "price": "100 USD",
+    "material": "mushroom",
+    "symbol": "%",
+    "color": "light_gray",
+    "stack_size": 10,
+    "fun": -2
+  }
+]

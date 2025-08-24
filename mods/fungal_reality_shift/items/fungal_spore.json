@@ -1,0 +1,23 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "fungal_spore",
+    "comestible_type": "FOOD",
+    "category": "food",
+    "name": "fungal spore",
+    "description": "A strange spore that seems to pulse with otherworldly energy. Eating it might have unexpected effects.",
+    "weight": "1 g",
+    "volume": "1 ml",
+    "price": "500 USD",
+    "material": "mushroom",
+    "symbol": "*",
+    "color": "light_gray",
+    "stack_size": 10,
+    "fun": -5,
+    "use_action": {
+      "type": "effect_on_conditions",
+      "effect_on_conditions": [ "fungal_reality_shift_effect_main" ]
+    }
+  }
+]
