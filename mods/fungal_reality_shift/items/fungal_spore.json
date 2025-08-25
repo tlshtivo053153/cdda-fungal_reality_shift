@@ -15,9 +15,6 @@
     "color": "light_gray",
     "stack_size": 10,
     "fun": -5,
-    "use_action": {
-      "type": "effect_on_conditions",
-      "effect_on_conditions": [ "fungal_reality_shift_effect_main" ]
-    }
+    "consumption_effect_on_conditions": [ "fungal_reality_shift_effect_main" ]
   }
 ]
