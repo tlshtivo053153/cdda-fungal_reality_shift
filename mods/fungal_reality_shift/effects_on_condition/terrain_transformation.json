@@ -72,201 +72,37 @@
       }
     ]
   },
-  {
+ {
     "type": "ter_furn_transform",
     "id": "fungal_reality_shift_terrain_transform_wall",
     "terrain": [
       {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_concrete_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
+        "result": [ "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log" ],
         "valid_terrain": [ "t_wall" ]
       },
       {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_wall" ]
+        "result": [ "t_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log" ],
+        "valid_terrain": [ "t_concrete_wall" ]
       },
       {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_wood_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_log_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_fungal_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_metal_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
+        "result": [ "t_wall", "t_concrete_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log" ],
         "valid_terrain": [ "t_brick_wall" ]
       },
       {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_brick_wall" ]
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_fungus_wall", "t_paper", "t_wall_log" ],
+        "valid_terrain": [ "t_wall_metal" ]
       },
       {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_brick_wall" ]
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_paper", "t_wall_log" ],
+        "valid_terrain": [ "t_fungus_wall" ]
       },
       {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_brick_wall" ]
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_wall_log" ],
+        "valid_terrain": [ "t_paper" ]
       },
       {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_brick_wall" ]
-      },
-      {
-        "result": [ "t_paper_wall" ],
-        "valid_terrain": [ "t_brick_wall" ]
-      },
-      {
-        "result": [ "t_concrete_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
-      },
-      {
-        "result": [ "t_wood_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
-      },
-      {
-        "result": [ "t_log_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
-      },
-      {
-        "result": [ "t_fungal_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
-      },
-      {
-        "result": [ "t_metal_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
-      },
-      {
-        "result": [ "t_brick_wall" ],
-        "valid_terrain": [ "t_paper_wall" ]
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper" ],
+        "valid_terrain": [ "t_wall_log" ]
       }
     ]
   },
@@ -275,52 +111,48 @@
     "id": "fungal_reality_shift_terrain_transform_liquid",
     "terrain": [
       {
-        "result": [ "t_lava" ],
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
         "valid_terrain": [ "t_water_sh" ]
       },
       {
-        "result": [ "t_gasoline" ],
-        "valid_terrain": [ "t_water_sh" ]
-      },
-      {
-        "result": [ "t_whiskey" ],
-        "valid_terrain": [ "t_water_sh" ]
-      },
-      {
-        "result": [ "t_milk" ],
-        "valid_terrain": [ "t_water_sh" ]
-      },
-      {
-        "result": [ "t_honey" ],
-        "valid_terrain": [ "t_water_sh" ]
-      },
-      {
-        "result": [ "t_sap" ],
-        "valid_terrain": [ "t_water_sh" ]
-      },
-      {
-        "result": [ "t_lava" ],
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
         "valid_terrain": [ "t_water_dp" ]
       },
       {
-        "result": [ "t_gasoline" ],
-        "valid_terrain": [ "t_water_dp" ]
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_lave" ]
       },
       {
-        "result": [ "t_whiskey" ],
-        "valid_terrain": [ "t_water_dp" ]
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_gasoline" ]
       },
       {
-        "result": [ "t_milk" ],
-        "valid_terrain": [ "t_water_dp" ]
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_whiskey" ]
       },
       {
-        "result": [ "t_honey" ],
-        "valid_terrain": [ "t_water_dp" ]
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_milk" ]
       },
       {
-        "result": [ "t_sap" ],
-        "valid_terrain": [ "t_water_dp" ]
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_honey" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_sap" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_sewage" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_acid" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_slime" ]
       }
     ]
   }

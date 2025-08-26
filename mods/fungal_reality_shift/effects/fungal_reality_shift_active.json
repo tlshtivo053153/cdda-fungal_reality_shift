@@ -1,0 +1,9 @@
+[
+  {
+    "type": "effect_type",
+    "id": "fungal_reality_shift_active",
+    "name": [ "Fungal Reality Shift Active" ],
+    "desc": [ "The world around you is shifting and changing due to the fungal spore's effects." ],
+    "rating": "mixed"
+  }
+]
