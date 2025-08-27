@@ -10,7 +10,7 @@
     "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FLAMMABLE", "SHALLOW_WATER" ],
     "connect_groups": "WATER",
     "connects_to": "WATER",
-    "liquid_source": { "id": "gasoline" },
+    "liquid_source": { "id": "liquid_fuel" },
     "examine_action": "water_source"
   },
   {
@@ -79,6 +79,20 @@
     "connect_groups": "WATER",
     "connects_to": "WATER",
     "liquid_source": { "id": "chem_sulphuric_acid" },
+    "examine_action": "water_source"
+  },
+  {
+    "type": "terrain",
+    "id": "t_liquid_fuel",
+    "name": "liquid fuel",
+    "description": "A highly flammable liquid fuel.  With a watertight container, you could gather liquid fuel from here. Not safe to drink as is.",
+    "symbol": "~",
+    "color": "light_red",
+    "move_cost": 5,
+    "flags": [ "TRANSPARENT", "LIQUID", "NO_SCENT", "SWIMMABLE", "FLAMMABLE", "SHALLOW_WATER" ],
+    "connect_groups": "WATER",
+    "connects_to": "WATER",
+    "liquid_source": { "id": "liquid_fuel" },
     "examine_action": "water_source"
   }
 ]

@@ -1,0 +1,23 @@
+[
+  {
+    "type": "ITEM",
+    "subtypes": [ "COMESTIBLE" ],
+    "id": "liquid_fuel",
+    "name": { "str_sp": "liquid fuel" },
+    "weight": "250 g",
+    "color": "light_red",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 0,
+    "calories": 0,
+    "description": "A highly flammable liquid fuel. Not safe to drink.",
+    "price": "0 cent",
+    "price_postapoc": "0 cent",
+    "material": [ "oil" ],
+    "volume": "250 ml",
+    "charges": 1,
+    "phase": "liquid",
+    "flags": [ "EATEN_COLD", "FLAMMABLE" ],
+    "fun": -10
+  }
+]
