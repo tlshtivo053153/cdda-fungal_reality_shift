@@ -22,6 +22,20 @@ This document provides guidelines for conducting self-evaluations after completi
 3. Assess the time spent on the task and identify any inefficiencies.
 4. Reflect on collaboration with team members and identify areas for improvement.
 
+## Communication Clarity in Task Delegation
+
+### Identifying Ambiguities
+- When delegating tasks, clearly specify the expected outcome and the method of execution.
+- If a task involves actions that Kilo Code cannot directly perform (e.g., executing git commands), explicitly state this and provide guidance on how the user should proceed.
+
+### Improving Instructions
+- Use precise language to avoid misinterpretation.
+- When requesting a specific mode of operation, clearly indicate the desired mode (e.g., "Please provide the commands for the user to execute in `ask` mode").
+- Provide examples or templates when necessary to illustrate the expected format or outcome.
+
+### Example of Improved Task Delegation
+- **Before**: "Create commits for the changes."
+- **After**: "Provide the git commands to stage and commit the changes. The commands should follow the Conventional Commits format. Present these commands in `ask` mode so the user can copy and execute them."
 ## Improvement Based on Feedback
 
 ### Identifying Improvement Points
