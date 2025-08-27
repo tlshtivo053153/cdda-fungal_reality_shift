@@ -136,7 +136,7 @@
       },
       {
         "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
-        "valid_terrain": [ "t_lave" ]
+        "valid_terrain": [ "t_lava" ]
       },
       {
         "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
