@@ -1,0 +1,63 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_liquid",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_liquid",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_liquid",
+    "terrain": [
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_water_sh" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_water_dp" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_lava" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_gasoline" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_whiskey" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_milk" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_honey" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_sap" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_sewage" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_acid" ]
+      },
+      {
+        "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  }
+]

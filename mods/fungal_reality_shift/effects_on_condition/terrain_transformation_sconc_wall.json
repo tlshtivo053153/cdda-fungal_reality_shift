@@ -1,0 +1,23 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_sconc_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_sconc_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_sconc_wall",
+    "terrain": [
+      {
+        "result": [ "t_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
+        "valid_terrain": [ "t_sconc_wall", "t_sconc_wall_r", "t_sconc_wall_w", "t_sconc_wall_b", "t_sconc_wall_g", "t_sconc_wall_y", "t_sconc_wall_P", "t_sconc_wall_p", "t_sconc_wall_orange", "t_sconc_wall_gray", "t_sconc_wall_brown", "t_sconc_wall_cyan", "t_sconc_wall_black" ]
+      }
+    ]
+  }
+]
