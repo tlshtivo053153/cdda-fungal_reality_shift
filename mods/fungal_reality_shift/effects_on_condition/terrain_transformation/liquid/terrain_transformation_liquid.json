@@ -1,18 +1,18 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_transform_terrain_liquid",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_LIQUID",
     "effect": [
       {
         "u_transform_radius": 20,
-        "ter_furn_transform": "fungal_reality_shift_terrain_transform_liquid",
+        "ter_furn_transform": "TERRAIN_TRANSFORM_FRS_LIQUID",
         "target_var": { "u_val": "transform_center" }
       }
     ]
   },
   {
     "type": "ter_furn_transform",
-    "id": "fungal_reality_shift_terrain_transform_liquid",
+    "id": "TERRAIN_TRANSFORM_FRS_LIQUID",
     "terrain": [
       {
         "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],

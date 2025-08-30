@@ -1,18 +1,18 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_transform_terrain_from_wall_resin",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_RESIN",
     "effect": [
       {
         "u_transform_radius": 20,
-        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall_resin",
+        "ter_furn_transform": "TERRAIN_TRANSFORM_FRS_FROM_WALL_RESIN",
         "target_var": { "u_val": "transform_center" }
       }
     ]
   },
   {
     "type": "ter_furn_transform",
-    "id": "fungal_reality_shift_terrain_transform_from_wall_resin",
+    "id": "TERRAIN_TRANSFORM_FRS_FROM_WALL_RESIN",
     "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_wood", "t_strconc_wall" ],

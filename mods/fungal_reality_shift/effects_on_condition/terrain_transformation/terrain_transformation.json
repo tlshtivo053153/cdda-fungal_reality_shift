@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_effect_main",
+    "id": "EOC_FRS_MAIN",
     "effect": [
       {
         "u_add_effect": "fungal_reality_shift_active",
@@ -14,7 +14,7 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_active",
+    "id": "EOC_FRS_ACTIVE",
     "recurrence": "1 minutes",
     "global": true,
     "condition": {
@@ -26,7 +26,7 @@
     },
     "effect": [
       {
-        "run_eocs": "fungal_reality_shift_transform_terrain"
+        "run_eocs": "EOC_FRS_TRANSFORM_TERRAIN"
       },
       {
         "u_message": "The world around you shifts and changes..."
@@ -35,7 +35,7 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_transform_terrain",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN",
     "effect": [
       {
         "u_location_variable": { "u_val": "transform_center" },
@@ -44,18 +44,18 @@
       },
       {
         "weighted_list_eocs": [
-          [ "fungal_reality_shift_transform_terrain_from_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_concrete_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_sconc_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_strconc_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_brick_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_wall_metal", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_fungus_wall", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_paper", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_wall_log", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_wall_resin", 5 ],
-          [ "fungal_reality_shift_transform_terrain_from_wall_wood", 5 ],
-          [ "fungal_reality_shift_transform_terrain_liquid", 50 ]
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_CONCRETE_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_SCONC_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_STRCONC_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_BRICK_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_METAL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_FUNGUS_WALL", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_PAPER", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_LOG", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_RESIN", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_WOOD", 5 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_LIQUID", 50 ]
         ]
       }
     ]
