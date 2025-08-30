@@ -10,78 +10,78 @@
       },
       {
         "weighted_list_eocs": [
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_LOG", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD", 1 ],
-          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC", 1 ]
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_LOG_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD_FROM_WALL", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC_FROM_WALL", 1 ]
         ]
       }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_concrete", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_brick", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_metal", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_fungus", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_paper", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_LOG",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_LOG_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_log", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_resin", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_wood", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC_FROM_WALL",
     "effect": [
       { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_wall_to_strconc", "target_var": { "u_val": "transform_center" } }
     ]

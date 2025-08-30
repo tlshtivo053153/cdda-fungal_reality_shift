@@ -4,18 +4,174 @@
     "id": "EOC_FRS_TRANSFORM_TERRAIN_FROM_WALL_LOG",
     "effect": [
       {
-        "u_transform_radius": 20,
-        "ter_furn_transform": "terrain_transform_frs_from_wall_log",
-        "target_var": { "u_val": "transform_center" }
+        "u_location_variable": { "u_val": "transform_center" },
+        "min_radius": 0,
+        "max_radius": 0
+      },
+      {
+        "weighted_list_eocs": [
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WALL_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD_FROM_LOG", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC_FROM_LOG", 1 ]
+        ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WALL_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_wall", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_CONCRETE_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_concrete", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_BRICK_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_brick", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_METAL_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_metal", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_FUNGUS_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_fungus", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_PAPER_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_paper", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_RESIN_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_resin", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WOOD_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_wood", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_STRCONC_FROM_LOG",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_log_to_strconc", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_wall",
+    "terrain": [
+      {
+        "result": [ "t_wall" ],
+        "valid_terrain": [ "t_wall_log" ]
       }
     ]
   },
   {
     "type": "ter_furn_transform",
-    "id": "terrain_transform_frs_from_wall_log",
+    "id": "terrain_transform_frs_log_to_concrete",
     "terrain": [
       {
-        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_brick",
+    "terrain": [
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_metal",
+    "terrain": [
+      {
+        "result": [ "t_wall_metal" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_fungus",
+    "terrain": [
+      {
+        "result": [ "t_fungus_wall" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_paper",
+    "terrain": [
+      {
+        "result": [ "t_paper" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_resin",
+    "terrain": [
+      {
+        "result": [ "t_wall_resin" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_wood",
+    "terrain": [
+      {
+        "result": [ "t_wall_wood" ],
+        "valid_terrain": [ "t_wall_log" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_log_to_strconc",
+    "terrain": [
+      {
+        "result": [ "t_strconc_wall" ],
         "valid_terrain": [ "t_wall_log" ]
       }
     ]
