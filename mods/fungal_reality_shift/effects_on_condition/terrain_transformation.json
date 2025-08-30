@@ -44,7 +44,17 @@
       },
       {
         "weighted_list_eocs": [
-          [ "fungal_reality_shift_transform_terrain_wall", 50 ],
+          [ "fungal_reality_shift_transform_terrain_from_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_concrete_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_sconc_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_strconc_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_brick_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_wall_metal", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_fungus_wall", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_paper", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_wall_log", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_wall_resin", 5 ],
+          [ "fungal_reality_shift_transform_terrain_from_wall_wood", 5 ],
           [ "fungal_reality_shift_transform_terrain_liquid", 50 ]
         ]
       }
@@ -52,11 +62,121 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "fungal_reality_shift_transform_terrain_wall",
+    "id": "fungal_reality_shift_transform_terrain_from_wall",
     "effect": [
       {
         "u_transform_radius": 20,
-        "ter_furn_transform": "fungal_reality_shift_terrain_transform_wall",
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_concrete_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_concrete_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_sconc_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_sconc_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_strconc_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_strconc_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_brick_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_brick_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_wall_metal",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall_metal",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_fungus_wall",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_fungus_wall",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_paper",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_paper",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_wall_log",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall_log",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_wall_resin",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall_resin",
+        "target_var": { "u_val": "transform_center" }
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "fungal_reality_shift_transform_terrain_from_wall_wood",
+    "effect": [
+      {
+        "u_transform_radius": 20,
+        "ter_furn_transform": "fungal_reality_shift_terrain_transform_from_wall_wood",
         "target_var": { "u_val": "transform_center" }
       }
     ]
@@ -72,52 +192,112 @@
       }
     ]
   },
- {
+  {
     "type": "ter_furn_transform",
-    "id": "fungal_reality_shift_terrain_transform_wall",
+    "id": "fungal_reality_shift_terrain_transform_from_wall",
     "terrain": [
       {
         "result": [ "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_wall", "t_wall_r", "t_wall_w", "t_wall_b", "t_wall_g", "t_wall_y", "t_wall_P", "t_wall_p", "t_wall_orange", "t_wall_gray", "t_wall_brown", "t_wall_cyan", "t_wall_black" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_concrete_wall",
+    "terrain": [
       {
         "result": [ "t_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_concrete_wall", "t_concrete_wall_r", "t_concrete_wall_w", "t_concrete_wall_b", "t_concrete_wall_g", "t_concrete_wall_y", "t_concrete_wall_P", "t_concrete_wall_p", "t_concrete_wall_orange", "t_concrete_wall_gray", "t_concrete_wall_brown", "t_concrete_wall_cyan", "t_concrete_wall_black" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_sconc_wall",
+    "terrain": [
       {
         "result": [ "t_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_sconc_wall", "t_sconc_wall_r", "t_sconc_wall_w", "t_sconc_wall_b", "t_sconc_wall_g", "t_sconc_wall_y", "t_sconc_wall_P", "t_sconc_wall_p", "t_sconc_wall_orange", "t_sconc_wall_gray", "t_sconc_wall_brown", "t_sconc_wall_cyan", "t_sconc_wall_black" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_strconc_wall",
+    "terrain": [
       {
         "result": [ "t_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_strconc_wall", "t_strconc_wall_r", "t_strconc_wall_w", "t_strconc_wall_b", "t_strconc_wall_g", "t_strconc_wall_y", "t_strconc_wall_P", "t_strconc_wall_p", "t_strconc_wall_orange", "t_strconc_wall_gray", "t_strconc_wall_brown", "t_strconc_wall_cyan", "t_strconc_wall_black" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_brick_wall",
+    "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_brick_wall" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_wall_metal",
+    "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_wall_metal" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_fungus_wall",
+    "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_fungus_wall" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_paper",
+    "terrain": [
       {
-        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_paper", "t_paper_brood" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_wall_log",
+    "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_wall_log" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_wall_resin",
+    "terrain": [
       {
-        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_wood", "t_strconc_wall" ],
         "valid_terrain": [ "t_wall_resin" ]
-      },
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "fungal_reality_shift_terrain_transform_from_wall_wood",
+    "terrain": [
       {
-        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],
+        "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_log", "t_wall_resin", "t_strconc_wall" ],
         "valid_terrain": [ "t_wall_wood", "t_wood_wall_r", "t_wood_wall_w", "t_wood_wall_b", "t_wood_wall_g", "t_wood_wall_y", "t_wood_wall_P", "t_wood_wall_p", "t_wood_wall_orange", "t_wood_wall_gray", "t_wood_wall_brown", "t_wood_wall_cyan", "t_wood_wall_black" ]
       }
     ]
