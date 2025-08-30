@@ -5,14 +5,14 @@
     "effect": [
       {
         "u_transform_radius": 20,
-        "ter_furn_transform": "TERRAIN_TRANSFORM_FRS_FROM_WALL_LOG",
+        "ter_furn_transform": "terrain_transform_frs_from_wall_log",
         "target_var": { "u_val": "transform_center" }
       }
     ]
   },
   {
     "type": "ter_furn_transform",
-    "id": "TERRAIN_TRANSFORM_FRS_FROM_WALL_LOG",
+    "id": "terrain_transform_frs_from_wall_log",
     "terrain": [
       {
         "result": [ "t_wall", "t_concrete_wall", "t_brick_wall", "t_wall_metal", "t_fungus_wall", "t_paper", "t_wall_resin", "t_wall_wood", "t_strconc_wall" ],

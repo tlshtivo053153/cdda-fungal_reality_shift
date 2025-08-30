@@ -5,14 +5,14 @@
     "effect": [
       {
         "u_transform_radius": 20,
-        "ter_furn_transform": "TERRAIN_TRANSFORM_FRS_LIQUID",
+        "ter_furn_transform": "terrain_transform_frs_liquid",
         "target_var": { "u_val": "transform_center" }
       }
     ]
   },
   {
     "type": "ter_furn_transform",
-    "id": "TERRAIN_TRANSFORM_FRS_LIQUID",
+    "id": "terrain_transform_frs_liquid",
     "terrain": [
       {
         "result": [ "t_lava", "t_gasoline", "t_whiskey", "t_milk", "t_honey", "t_sap", "t_sewage", "t_acid", "t_slime" ],
