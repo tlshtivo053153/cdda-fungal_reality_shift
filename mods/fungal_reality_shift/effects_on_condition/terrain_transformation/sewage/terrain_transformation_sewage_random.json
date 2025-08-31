@@ -1,0 +1,22 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_FROM_SEWAGE",
+    "effect": [
+      {
+        "weighted_list_eocs": [
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WATER_SH_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WATER_DP_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_LAVA_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_GASOLINE_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WHISKEY_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_MILK_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_HONEY_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_SAP_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_ACID_FROM_SEWAGE", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_SLIME_FROM_SEWAGE", 1 ]
+        ]
+      }
+    ]
+  }
+]

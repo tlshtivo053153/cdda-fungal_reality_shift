@@ -1,0 +1,172 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_water_sh",
+    "terrain": [
+      {
+        "result": [ "t_water_sh" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_water_dp",
+    "terrain": [
+      {
+        "result": [ "t_water_dp" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_lava",
+    "terrain": [
+      {
+        "result": [ "t_lava" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_gasoline",
+    "terrain": [
+      {
+        "result": [ "t_gasoline" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_whiskey",
+    "terrain": [
+      {
+        "result": [ "t_whiskey" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_milk",
+    "terrain": [
+      {
+        "result": [ "t_milk" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_honey",
+    "terrain": [
+      {
+        "result": [ "t_honey" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_sap",
+    "terrain": [
+      {
+        "result": [ "t_sap" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_sewage",
+    "terrain": [
+      {
+        "result": [ "t_sewage" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_slime_to_acid",
+    "terrain": [
+      {
+        "result": [ "t_acid" ],
+        "valid_terrain": [ "t_slime" ]
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WATER_SH_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_water_sh", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WATER_DP_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_water_dp", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_LAVA_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_lava", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_GASOLINE_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_gasoline", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_WHISKEY_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_whiskey", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_MILK_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_milk", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_HONEY_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_honey", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_SAP_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_sap", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_SEWAGE_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_sewage", "target_var": { "u_val": "transform_center" } }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_ACID_FROM_SLIME",
+    "effect": [
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_slime_to_acid", "target_var": { "u_val": "transform_center" } }
+    ]
+  }
+]

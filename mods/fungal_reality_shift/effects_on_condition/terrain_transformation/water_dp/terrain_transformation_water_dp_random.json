@@ -1,0 +1,22 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_FROM_WATER_DP",
+    "effect": [
+      {
+        "weighted_list_eocs": [
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WATER_SH_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_LAVA_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_GASOLINE_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_WHISKEY_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_MILK_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_HONEY_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_SAP_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_SEWAGE_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_ACID_FROM_WATER_DP", 1 ],
+          [ "EOC_FRS_TRANSFORM_TERRAIN_TO_SLIME_FROM_WATER_DP", 1 ]
+        ]
+      }
+    ]
+  }
+]
