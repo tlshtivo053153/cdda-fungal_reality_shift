@@ -50,7 +50,7 @@
   - Other wall types → Fungal matter
 - Liquid terrain transformations:
  - Water → Lava
-  - Water → Gasoline
+  - Water → Liquid fuel
   - Water → Whiskey
   - Other liquids → Random liquid from pool
 
@@ -103,7 +103,7 @@
   - 5% chance: t_paper_wall
 - Liquid terrains (t_water_sh, t_water_dp, etc.):
   - 40% chance: t_lava
-  - 20% chance: t_gasoline
+  - 20% chance: t_liquid_fuel
   - 20% chance: t_whiskey
   - 10% chance: t_milk
   - 5% chance: t_honey

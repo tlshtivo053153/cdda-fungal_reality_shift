@@ -17,7 +17,7 @@ Commit messages should be as specific and detailed as possible to make it easier
 feat: change liquid terrain transformation to random single and refactor related files
 
 - Refactor liquid terrain transformation logic to randomly select and transform only one terrain from supported terrains.
-- Create separate JSON files for each liquid transformation target (e.g., t_lava, t_gasoline) under mods/fungal_reality_shift/effects_on_condition/terrain_transformation/liquid/individual/.
+- Create separate JSON files for each liquid transformation target (e.g., t_lava, t_liquid_fuel) under mods/fungal_reality_shift/effects_on_condition/terrain_transformation/liquid/individual/.
 - Define individual `ter_furn_transform` for each `valid_terrain` in the new files.
 - Remove the original mods/fungal_reality_shift/effects_on_condition/terrain_transformation/liquid/terrain_transformation_liquid.json.
 - Update weighted_list_eocs in terrain_transformation.json to reference new EOCs.

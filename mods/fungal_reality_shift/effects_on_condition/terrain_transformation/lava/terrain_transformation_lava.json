@@ -21,10 +21,10 @@
   },
   {
     "type": "ter_furn_transform",
-    "id": "terrain_transform_frs_liquid_from_lava_to_gasoline",
+    "id": "terrain_transform_frs_liquid_from_lava_to_liquid_fuel",
     "terrain": [
       {
-        "result": [ "t_gasoline" ],
+        "result": [ "t_liquid_fuel" ],
         "valid_terrain": [ "t_lava" ]
       }
     ]
@@ -115,9 +115,9 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_GASOLINE_FROM_LAVA",
+    "id": "EOC_FRS_TRANSFORM_TERRAIN_TO_LIQUID_FUEL_FROM_LAVA",
     "effect": [
-      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_lava_to_gasoline", "target_var": { "u_val": "transform_center" } }
+      { "u_transform_radius": 20, "ter_furn_transform": "terrain_transform_frs_liquid_from_lava_to_liquid_fuel", "target_var": { "u_val": "transform_center" } }
     ]
   },
   {
