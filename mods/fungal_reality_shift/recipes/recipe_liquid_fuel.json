@@ -9,14 +9,15 @@
     "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
+    "byproducts": [ [ "diesel" ] ],
     "qualities": [
       {
-        "id": "CHEM",
+        "id": "BOIL",
         "level": 2
       },
       {
-        "id": "BOIL",
-        "level": 1
+        "id": "DISTILL",
+        "level": 2
       }
     ],
     "tools": [
@@ -33,18 +34,6 @@
         [
           "liquid_fuel",
           100
-        ]
-      ],
-      [
-        [
-          "water_clean",
-          1
-        ]
-      ],
-      [
-        [
-          "chem_ethanol",
-          50
         ]
       ]
     ]
