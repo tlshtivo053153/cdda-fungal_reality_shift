@@ -12,7 +12,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "fungal_creature_remnant", 1 ] ]
+      [ [ "veggy_tainted", 10 ] ]
     ]
   }
 ]
