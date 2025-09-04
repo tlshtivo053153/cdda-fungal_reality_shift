@@ -1,0 +1,102 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_water_sh",
+    "terrain": [
+      {
+        "result": [ "t_water_sh" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_water_dp",
+    "terrain": [
+      {
+        "result": [ "t_water_dp" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_lava",
+    "terrain": [
+      {
+        "result": [ "t_lava" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_liquid_fuel",
+    "terrain": [
+      {
+        "result": [ "t_liquid_fuel" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_whiskey",
+    "terrain": [
+      {
+        "result": [ "t_whiskey" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_milk",
+    "terrain": [
+      {
+        "result": [ "t_milk" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_honey",
+    "terrain": [
+      {
+        "result": [ "t_honey" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_sap",
+    "terrain": [
+      {
+        "result": [ "t_sap" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_acid",
+    "terrain": [
+      {
+        "result": [ "t_acid" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_liquid_from_sewage_to_slime",
+    "terrain": [
+      {
+        "result": [ "t_slime" ],
+        "valid_terrain": [ "t_sewage" ]
+      }
+    ]
+  }
+]
