@@ -1,0 +1,44 @@
+[
+  {
+    "type": "terrain",
+    "id": "t_wall_gold",
+    "name": "Pure Gold Wall",
+    "description": "A wall made of pure gold. It looks luxurious, but its strength is not very high.",
+    "symbol": "#",
+    "color": "yellow",
+    "move_cost": 0,
+    "coverage": 100,
+    "connect_groups": "WALL",
+    "connects_to": "WALL",
+    "flags": [ "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 10,
+      "str_max": 50,
+      "sound": "clang!",
+      "sound_fail": "whump!",
+      "ter_set": "t_null",
+      "items": [ { "item": "gold_small", "count": [ 10, 20 ] } ]
+    }
+  },
+  {
+    "type": "terrain",
+    "id": "t_wall_chocolate",
+    "name": "Chocolate Wall",
+    "description": "A wall made of chocolate. It looks delicious, but it's very fragile.",
+    "symbol": "#",
+    "color": "brown",
+    "move_cost": 0,
+    "coverage": 100,
+    "connect_groups": "WALL",
+    "connects_to": "WALL",
+    "flags": [ "NOITEM", "WALL", "NO_SCENT", "AUTO_WALL_SYMBOL", "BLOCK_WIND" ],
+    "bash": {
+      "str_min": 5,
+      "str_max": 30,
+      "sound": "crunch!",
+      "sound_fail": "whump!",
+      "ter_set": "t_null",
+      "items": [ { "item": "chocolate_chunk", "count": [ 1, 3 ] } ]
+    }
+  }
+]

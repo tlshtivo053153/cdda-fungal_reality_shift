@@ -1,0 +1,24 @@
+[
+  {
+    "type": "ITEM",
+    "id": "chocolate_chunk",
+    "symbol": ";",
+    "color": "brown",
+    "name": { "str": "large chunk of chocolate" },
+    "description": "A large, heavy chunk of chocolate. It looks delicious, but it's too big to eat as is. You can break it down into smaller pieces.",
+    "category": "spare_parts",
+    "material": "junk",
+    "weight": "215 g",
+    "volume": "415 ml",
+    "longest_side": "30 cm"
+  },
+  {
+    "type": "uncraft",
+    "result": "chocolate_chunk",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "5 m",
+    "components": [ [ [ "chocolate", 24 ] ] ],
+    "activity_level": "LIGHT_EXERCISE"
+  }
+]
