@@ -123,3 +123,24 @@ Follow Conventional Commits format:
 
 ### Removed
 - [Removed Feature]
+```
+
+## Effect Usage Documentation
+
+### `effect_on_conditions` vs `consumption_effect_on_conditions`
+
+- Explain the difference between `effect_on_conditions` and `consumption_effect_on_conditions`.
+- `effect_on_conditions` is used for general item usage effects.
+- `consumption_effect_on_conditions` is specifically for effects that occur when comestible items are consumed.
+
+### Usage Examples
+
+- Provide clear examples of how to use `effect_on_conditions` and `consumption_effect_on_conditions`.
+- Include code snippets and explanations for each example.
+
+### Best Practices
+
+- Always use `consumption_effect_on_conditions` for comestible items.
+- Ensure that all effect definitions referenced in `consumption_effect_on_conditions` exist.
+- Document the purpose and behavior of each effect clearly.
+- Refer to bundled MODs like Magiclysm and MindOverMatter for examples of how to use `consumption_effect_on_conditions` effectively.

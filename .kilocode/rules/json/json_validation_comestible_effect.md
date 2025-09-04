@@ -1,8 +1,26 @@
-# JSON Validation Guidelines for Comestible Items
+# JSON Validation Guidelines
 
 ## Overview
 
-This document provides guidelines for validating JSON files related to comestible items in MOD development, specifically regarding the use of effect definitions.
+This document provides guidelines for validating JSON files in MOD development.
+
+## JSON Syntax Validation
+
+- All JSON files must be syntactically correct.
+- Use a JSON validator to check the syntax of JSON files.
+- Ensure that all fields are properly closed with commas and braces.
+
+## Field Name Validation
+
+- Verify that all field names are correct and match the expected schema.
+- Use the game's JSON documentation to confirm field names.
+- Pay special attention to fields that are case-sensitive.
+
+## Dependency Validation
+
+- Check for circular dependencies in recipes and item groups.
+- Ensure that all referenced items and groups exist.
+- Use tools to visualize and validate dependency graphs.
 
 ## Prohibition of `use_action` with `effect_on_conditions` for Comestible Items
 
@@ -24,11 +42,17 @@ This document provides guidelines for validating JSON files related to comestibl
 ]
 ```
 
-## Validation Procedure
+## Validation Procedure for Comestible Items
 
 1. When validating JSON files, check if items with `comestible_type` have `use_action` with `"type": "effect_on_conditions"`.
 2. If such usage is found, flag it as an error and recommend using `consumption_effect_on_conditions` instead.
 3. Ensure that `consumption_effect_on_conditions` references valid effect definitions.
+
+## Automated Testing
+
+- Implement automated tests to validate JSON files.
+- Use continuous integration to run JSON validation tests.
+- Include JSON validation in the pre-commit hook.
 
 ## Review and Approval
 
