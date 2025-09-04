@@ -1,7 +1,7 @@
 [
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_MAIN",
+    "id": "EOC_FRS_ACTIVATE",
     "effect": [
       {
         "u_add_effect": "fungal_reality_shift_active",
@@ -14,7 +14,7 @@
   },
   {
     "type": "effect_on_condition",
-    "id": "EOC_FRS_ACTIVE",
+    "id": "EOC_FRS_CHECK_ACTIVE",
     "recurrence": "1 minutes",
     "global": true,
     "condition": {

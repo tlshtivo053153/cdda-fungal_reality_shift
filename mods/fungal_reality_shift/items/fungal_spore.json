@@ -15,6 +15,6 @@
     "color": "light_gray",
     "stack_size": 10,
     "fun": -5,
-    "consumption_effect_on_conditions": [ "EOC_FRS_MAIN" ]
+    "consumption_effect_on_conditions": [ "EOC_FRS_ACTIVATE" ]
   }
 ]
