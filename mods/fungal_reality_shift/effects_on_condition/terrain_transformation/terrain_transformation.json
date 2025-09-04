@@ -29,7 +29,8 @@
         "run_eocs": "EOC_FRS_TRANSFORM_TERRAIN"
       },
       {
-        "u_message": "The world around you shifts and changes..."
+        "u_message": "The world around you shifts and changes...",
+        "type": "debug"
       }
     ]
   },
