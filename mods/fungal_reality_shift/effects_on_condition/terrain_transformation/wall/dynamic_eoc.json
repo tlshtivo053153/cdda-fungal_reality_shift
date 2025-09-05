@@ -1,0 +1,40 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_WALL_DYNAMIC",
+    "effect": [
+      {
+        "u_location_variable": { "u_val": "transform_center" },
+        "min_radius": 0,
+        "max_radius": 0
+      },
+      {
+        "set_string_var": [ "brick", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "wall" ],
+        "target_var": { "context_val": "source_material" },
+        "parse_tags": true
+      },
+      {
+        "set_string_var": [ "wall", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "brick" ],
+        "target_var": { "context_val": "target_material" },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "not": { "compare_string": [ { "context_val": "source_material" }, { "context_val": "target_material" } ] }
+        },
+        "then": [
+          {
+            "set_string_var": "terrain_transform_frs_<context_val:source_material>_to_<context_val:target_material>",
+            "target_var": { "context_val": "transform_id" },
+            "parse_tags": true
+          },
+          {
+            "u_transform_radius": 20,
+            "ter_furn_transform": { "context_val": "transform_id" },
+            "target_var": { "u_val": "transform_center" }
+          }
+        ]
+      }
+    ]
+  }
+]

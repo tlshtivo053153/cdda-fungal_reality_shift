@@ -1,0 +1,40 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_FRS_TRANSFORM_LIQUID_DYNAMIC",
+    "effect": [
+      {
+        "u_location_variable": { "u_val": "transform_center" },
+        "min_radius": 0,
+        "max_radius": 0
+      },
+      {
+        "set_string_var": [ "water_sh", "water_dp", "lava", "liquid_fuel", "whiskey", "milk", "honey", "sap", "sewage", "acid", "slime" ],
+        "target_var": { "context_val": "source_liquid" },
+        "parse_tags": true
+      },
+      {
+        "set_string_var": [ "water_sh", "water_dp", "lava", "liquid_fuel", "whiskey", "milk", "honey", "sap", "sewage", "acid", "slime" ],
+        "target_var": { "context_val": "target_liquid" },
+        "parse_tags": true
+      },
+      {
+        "if": {
+          "not": { "compare_string": [ { "context_val": "source_liquid" }, { "context_val": "target_liquid" } ] }
+        },
+        "then": [
+          {
+            "set_string_var": "terrain_transform_frs_liquid_from_<context_val:source_liquid>_to_<context_val:target_liquid>",
+            "target_var": { "context_val": "transform_id" },
+            "parse_tags": true
+          },
+          {
+            "u_transform_radius": 20,
+            "ter_furn_transform": { "context_val": "transform_id" },
+            "target_var": { "u_val": "transform_center" }
+          }
+        ]
+      }
+    ]
+  }
+]
