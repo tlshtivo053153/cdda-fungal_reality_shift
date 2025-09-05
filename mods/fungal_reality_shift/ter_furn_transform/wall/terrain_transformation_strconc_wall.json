@@ -78,5 +78,15 @@
         "valid_terrain": [ "t_strconc_wall", "t_strconc_wall_r", "t_strconc_wall_w", "t_strconc_wall_b", "t_strconc_wall_g", "t_strconc_wall_y", "t_strconc_wall_P", "t_strconc_wall_p", "t_strconc_wall_orange", "t_strconc_wall_gray", "t_strconc_wall_brown", "t_strconc_wall_cyan", "t_strconc_wall_black" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_strconc_to_concrete",
+    "terrain": [
+      {
+        "result": [ "t_concrete" ],
+        "valid_terrain": [ "t_strconc_wall", "t_strconc_wall_r", "t_strconc_wall_w", "t_strconc_wall_b", "t_strconc_wall_g", "t_strconc_wall_y", "t_strconc_wall_P", "t_strconc_wall_p", "t_strconc_wall_orange", "t_strconc_wall_gray", "t_strconc_wall_brown", "t_strconc_wall_cyan", "t_strconc_wall_black" ]
+      }
+    ]
   }
 ]
