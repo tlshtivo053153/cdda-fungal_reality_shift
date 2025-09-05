@@ -88,5 +88,25 @@
         "valid_terrain": [ "t_brick_wall" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_brick_to_gold",
+    "terrain": [
+      {
+        "result": [ "t_wall_gold" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_brick_to_chocolate",
+    "terrain": [
+      {
+        "result": [ "t_wall_chocolate" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      }
+    ]
   }
 ]

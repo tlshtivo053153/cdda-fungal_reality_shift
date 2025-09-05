@@ -88,5 +88,25 @@
         "valid_terrain": [ "t_concrete_wall", "t_concrete_wall_r", "t_concrete_wall_w", "t_concrete_wall_b", "t_concrete_wall_g", "t_concrete_wall_y", "t_concrete_wall_P", "t_concrete_wall_p", "t_concrete_wall_orange", "t_concrete_wall_gray", "t_concrete_wall_brown", "t_concrete_wall_cyan", "t_concrete_wall_black" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_concrete_to_gold",
+    "terrain": [
+      {
+        "result": [ "t_wall_gold" ],
+        "valid_terrain": [ "t_concrete_wall", "t_concrete_wall_r", "t_concrete_wall_w", "t_concrete_wall_b", "t_concrete_wall_g", "t_concrete_wall_y", "t_concrete_wall_P", "t_concrete_wall_p", "t_concrete_wall_orange", "t_concrete_wall_gray", "t_concrete_wall_brown", "t_concrete_wall_cyan", "t_concrete_wall_black" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_concrete_to_chocolate",
+    "terrain": [
+      {
+        "result": [ "t_wall_chocolate" ],
+        "valid_terrain": [ "t_concrete_wall", "t_concrete_wall_r", "t_concrete_wall_w", "t_concrete_wall_b", "t_concrete_wall_g", "t_concrete_wall_y", "t_concrete_wall_P", "t_concrete_wall_p", "t_concrete_wall_orange", "t_concrete_wall_gray", "t_concrete_wall_brown", "t_concrete_wall_cyan", "t_concrete_wall_black" ]
+      }
+    ]
   }
 ]

@@ -88,5 +88,25 @@
         "valid_terrain": [ "t_sconc_wall", "t_sconc_wall_r", "t_sconc_wall_w", "t_sconc_wall_b", "t_sconc_wall_g", "t_sconc_wall_y", "t_sconc_wall_P", "t_sconc_wall_p", "t_sconc_wall_orange", "t_sconc_wall_gray", "t_sconc_wall_brown", "t_sconc_wall_cyan", "t_sconc_wall_black" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_sconc_to_gold",
+    "terrain": [
+      {
+        "result": [ "t_wall_gold" ],
+        "valid_terrain": [ "t_sconc_wall", "t_sconc_wall_r", "t_sconc_wall_w", "t_sconc_wall_b", "t_sconc_wall_g", "t_sconc_wall_y", "t_sconc_wall_P", "t_sconc_wall_p", "t_sconc_wall_orange", "t_sconc_wall_gray", "t_sconc_wall_brown", "t_sconc_wall_cyan", "t_sconc_wall_black" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_sconc_to_chocolate",
+    "terrain": [
+      {
+        "result": [ "t_wall_chocolate" ],
+        "valid_terrain": [ "t_sconc_wall", "t_sconc_wall_r", "t_sconc_wall_w", "t_sconc_wall_b", "t_sconc_wall_g", "t_sconc_wall_y", "t_sconc_wall_P", "t_sconc_wall_p", "t_sconc_wall_orange", "t_sconc_wall_gray", "t_sconc_wall_brown", "t_sconc_wall_cyan", "t_sconc_wall_black" ]
+      }
+    ]
   }
 ]

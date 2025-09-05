@@ -1,0 +1,92 @@
+[
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_wall",
+    "terrain": [
+      {
+        "result": [ "t_wall" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_concrete",
+    "terrain": [
+      {
+        "result": [ "t_concrete_wall" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_metal",
+    "terrain": [
+      {
+        "result": [ "t_wall_metal" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_fungus",
+    "terrain": [
+      {
+        "result": [ "t_fungus_wall" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_paper",
+    "terrain": [
+      {
+        "result": [ "t_paper" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_log",
+    "terrain": [
+      {
+        "result": [ "t_wall_log" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_resin",
+    "terrain": [
+      {
+        "result": [ "t_wall_resin" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_wood",
+    "terrain": [
+      {
+        "result": [ "t_wall_wood" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_strconc",
+    "terrain": [
+      {
+        "result": [ "t_strconc_wall" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
+  }
+]
