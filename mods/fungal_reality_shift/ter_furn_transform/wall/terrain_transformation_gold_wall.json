@@ -88,5 +88,15 @@
         "valid_terrain": [ "t_wall_gold" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_chocolate",
+    "terrain": [
+      {
+        "result": [ "t_wall_chocolate" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
   }
 ]
