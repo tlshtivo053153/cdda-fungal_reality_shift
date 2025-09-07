@@ -108,5 +108,15 @@
         "valid_terrain": [ "t_paper", "t_paper_brood" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_paper_to_portal",
+    "terrain": [
+      {
+        "result": [ "t_wall_portal" ],
+        "valid_terrain": [ "t_paper", "t_paper_brood" ]
+      }
+    ]
   }
 ]

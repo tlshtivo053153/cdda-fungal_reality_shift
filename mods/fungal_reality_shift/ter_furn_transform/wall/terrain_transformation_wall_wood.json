@@ -108,5 +108,15 @@
         "valid_terrain": [ "t_wall_wood", "t_wood_wall_r", "t_wood_wall_w", "t_wood_wall_b", "t_wood_wall_g", "t_wood_wall_y", "t_wood_wall_P", "t_wood_wall_p", "t_wood_wall_orange", "t_wood_wall_gray", "t_wood_wall_brown", "t_wood_wall_cyan", "t_wood_wall_black" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_wood_to_portal",
+    "terrain": [
+      {
+        "result": [ "t_wall_portal" ],
+        "valid_terrain": [ "t_wall_wood", "t_wood_wall_r", "t_wood_wall_w", "t_wood_wall_b", "t_wood_wall_g", "t_wood_wall_y", "t_wood_wall_P", "t_wood_wall_p", "t_wood_wall_orange", "t_wood_wall_gray", "t_wood_wall_brown", "t_wood_wall_cyan", "t_wood_wall_black" ]
+      }
+    ]
   }
 ]

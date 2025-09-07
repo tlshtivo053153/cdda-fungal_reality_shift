@@ -108,5 +108,15 @@
         "valid_terrain": [ "t_brick_wall" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_brick_to_portal",
+    "terrain": [
+      {
+        "result": [ "t_wall_portal" ],
+        "valid_terrain": [ "t_brick_wall" ]
+      }
+    ]
   }
 ]
