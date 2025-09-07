@@ -4,7 +4,7 @@
     "id": "EOC_PORTAL_MONSTER_SPAWN",
     "effect": [
       {
-        "u_spawn_monster": "GROUP_ZOMBIE",
+        "u_spawn_monster": "GROUP_FUNGI_FUNGALOID",
         "group": true,
         "real_count": 1,
         "min_radius": 5,
