@@ -10,7 +10,7 @@
         "u_map_run_eocs": "EOC_PORTAL_MONSTER_SPAWN",
         "range": 20,
         "store_coordinates_in": { "context_val": "tile" },
-        "condition": { "map_terrain_id": "t_portal_wall", "loc": { "context_val": "tile" } },
+        "condition": { "map_terrain_id": "t_wall_portal", "loc": { "context_val": "tile" } },
         "stop_at_first": true
       }
     ]
