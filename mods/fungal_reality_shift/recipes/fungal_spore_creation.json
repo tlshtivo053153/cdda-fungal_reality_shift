@@ -12,7 +12,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [
-      [ [ "veggy_tainted", 10 ] ]
+      [ [ "veggy_tainted", 100 ] ]
     ]
   }
 ]
