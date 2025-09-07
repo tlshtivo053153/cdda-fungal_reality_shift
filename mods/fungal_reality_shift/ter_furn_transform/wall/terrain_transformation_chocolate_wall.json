@@ -108,5 +108,25 @@
         "valid_terrain": [ "t_wall_chocolate" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_chocolate_to_brick",
+    "terrain": [
+      {
+        "result": [ "t_brick_wall" ],
+        "valid_terrain": [ "t_wall_chocolate" ]
+      }
+    ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_chocolate_to_sconc",
+    "terrain": [
+      {
+        "result": [ "t_sconc_wall" ],
+        "valid_terrain": [ "t_wall_chocolate" ]
+      }
+    ]
   }
 ]

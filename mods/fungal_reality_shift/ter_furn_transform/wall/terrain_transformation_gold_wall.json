@@ -118,5 +118,15 @@
         "valid_terrain": [ "t_wall_gold" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_gold_to_sconc",
+    "terrain": [
+      {
+        "result": [ "t_sconc_wall" ],
+        "valid_terrain": [ "t_wall_gold" ]
+      }
+    ]
   }
 ]

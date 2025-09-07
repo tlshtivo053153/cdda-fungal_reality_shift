@@ -118,5 +118,15 @@
         "valid_terrain": [ "t_fungus_wall" ]
       }
     ]
+  },
+  {
+    "type": "ter_furn_transform",
+    "id": "terrain_transform_frs_fungus_to_sconc",
+    "terrain": [
+      {
+        "result": [ "t_sconc_wall" ],
+        "valid_terrain": [ "t_fungus_wall" ]
+      }
+    ]
   }
 ]
