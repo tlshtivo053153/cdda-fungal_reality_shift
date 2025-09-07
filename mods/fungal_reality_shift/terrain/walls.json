@@ -43,7 +43,7 @@
   },
   {
     "type": "terrain",
-    "id": "t_portal_wall",
+    "id": "t_wall_portal",
     "name": "portal wall",
     "description": "A mysterious wall that seems to shimmer with otherworldly energy. Monsters periodically emerge from it.",
     "symbol": "#",
