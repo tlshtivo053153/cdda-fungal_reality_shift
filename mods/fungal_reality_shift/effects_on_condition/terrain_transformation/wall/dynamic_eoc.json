@@ -9,12 +9,12 @@
         "max_radius": 0
       },
       {
-        "set_string_var": [ "brick", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "wall", "gold", "chocolate" ],
+        "set_string_var": [ "brick", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "wall", "gold", "chocolate", "portal" ],
         "target_var": { "context_val": "source_material" },
         "parse_tags": true
       },
       {
-        "set_string_var": [ "wall", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "brick", "gold", "chocolate" ],
+        "set_string_var": [ "wall", "concrete", "metal", "fungus", "paper", "log", "resin", "wood", "strconc", "brick", "gold", "chocolate", "portal" ],
         "target_var": { "context_val": "target_material" },
         "parse_tags": true
       },
