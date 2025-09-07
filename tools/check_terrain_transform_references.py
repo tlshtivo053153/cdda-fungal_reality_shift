@@ -60,7 +60,7 @@ for source, targets in transformations.items():
         if target in transformations and source in transformations[target]:
             print(f"Consistent reference: {source} <-> {target}")
         else:
-            print(f"Inconsistent reference: {source} -> {target} (missing reverse)")
+            print(f"Inconsistent reference: {source} -> {target} (missing reverse: {target} -> {source})")
 
 # Summary
 print("\nSummary:")
