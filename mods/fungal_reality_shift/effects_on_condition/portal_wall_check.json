@@ -1,0 +1,37 @@
+[
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_WALL_CHECK",
+    "eoc_type": "EVENT",
+    "required_event": "avatar_moves",
+    "global": true,
+    "effect": [
+      {
+        "u_map_run_eocs": "EOC_PORTAL_WALL_CHECK_TILE",
+        "range": 20,
+        "store_coordinates_in": { "context_val": "tile" },
+        "condition": { "map_terrain_id": "t_portal_wall", "loc": { "context_val": "tile" } },
+        "stop_at_first": true
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_WALL_CHECK_TILE",
+    "effect": [
+      {
+        "run_eocs": "EOC_PORTAL_MONSTER_SPAWN_QUEUE"
+      }
+    ]
+  },
+  {
+    "type": "effect_on_condition",
+    "id": "EOC_PORTAL_MONSTER_SPAWN_QUEUE",
+    "effect": [
+      {
+        "run_eocs": "EOC_PORTAL_MONSTER_SPAWN",
+        "time_in_future": [ "30 seconds", "2 minutes" ]
+      }
+    ]
+  }
+]
