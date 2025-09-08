@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fungal Reality Shift\n"
+"POT-Creation-Date: 2025-09-09 04:54+0900\n"
+"PO-Revision-Date: 2025-09-09 04:54+0900\n"
+"Last-Translator: None\n"
+"Language-Team: None\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#. ~ MOD name
+#: mods/fungal_reality_shift/modinfo.json
+msgid "Fungal Reality Shift"
+msgstr ""
+
+#. ~ Description of MOD "Fungal Reality Shift"
+#: mods/fungal_reality_shift/modinfo.json
+msgid "A MOD where eating a specific item causes random terrain changes around the player, inspired by Noita."
+msgstr ""
+
+#. ~ Name of effect type id "fungal_reality_shift_active"
+#: mods/fungal_reality_shift/effects/fungal_reality_shift_active.json
+msgid "Fungal Reality Shift Active"
+msgstr ""
+
+#. ~ Description of effect type "Fungal Reality Shift Active"
+#: mods/fungal_reality_shift/effects/fungal_reality_shift_active.json
+msgid "The world around you is shifting and changing due to the fungal spore's effects."
+msgstr ""
+
+#. ~ Player message in effect in EoC "EOC_FRS_ACTIVATE"
+#: mods/fungal_reality_shift/effects_on_condition/terrain_transformation/terrain_transformation.json
+msgid "You feel the world around you begin to shift and change..."
+msgstr ""
+
+#. ~ Player message in effect in EoC "EOC_FRS_CHECK_ACTIVE"
+#: mods/fungal_reality_shift/effects_on_condition/terrain_transformation/terrain_transformation.json
+msgid "The world around you shifts and changes..."
+msgstr ""
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/fungal_spore.json
+msgid "fungal spore"
+msgid_plural "fungal spores"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "fungal spore"
+#: mods/fungal_reality_shift/items/fungal_spore.json
+msgid "A strange spore that seems to pulse with otherworldly energy. Eating it might have unexpected effects."
+msgstr ""
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/items_chocolate_chunk.json
+msgid "large chunk of chocolate"
+msgid_plural "large chunk of chocolates"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "large chunk of chocolate"
+#: mods/fungal_reality_shift/items/items_chocolate_chunk.json
+msgid "A large, heavy chunk of chocolate. It looks delicious, but it's too big to eat as is. You can break it down into smaller pieces."
+msgstr ""
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/liquid_fuel.json
+msgid "liquid fuel"
+msgid_plural "liquid fuel"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description of "liquid fuel"
+#: mods/fungal_reality_shift/items/liquid_fuel.json
+msgid "A highly flammable liquid fuel. Not safe to drink."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Whiskey"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Whiskey"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A strong alcoholic beverage.  With a watertight container, you could gather whiskey from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Milk"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Milk"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A nutritious liquid.  With a watertight container, you could gather milk from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Honey"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Honey"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A sweet, viscous liquid.  With a watertight container, you could gather honey from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Sap"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Sap"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A sticky, sweet liquid from trees.  With a watertight container, you could gather sap from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Acid"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Acid"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A highly corrosive liquid.  With a watertight container, you could gather acid from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Fuel"
+msgstr ""
+
+#. ~ Description of terrain "Pool of Fuel"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "A highly flammable liquid fuel.  With a watertight container, you could gather liquid fuel from here. Not safe to drink as is."
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "Pure Gold Wall"
+msgstr ""
+
+#. ~ Description of terrain "Pure Gold Wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "A wall made of pure gold. It looks luxurious, but its strength is not very high."
+msgstr ""
+
+#. ~ Bashing sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "clang!"
+msgstr ""
+
+#. ~ Bashing failed sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "whump!"
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "Chocolate Wall"
+msgstr ""
+
+#. ~ Description of terrain "Chocolate Wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "A wall made of chocolate. It looks delicious, but it's very fragile."
+msgstr ""
+
+#. ~ Bashing sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "crunch!"
+msgstr ""
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "portal wall"
+msgstr ""
+
+#. ~ Description of terrain "portal wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "A mysterious wall that seems to shimmer with otherworldly energy. Monsters periodically emerge from it."
+msgstr ""

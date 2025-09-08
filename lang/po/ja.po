@@ -1,0 +1,205 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Fungal Reality Shift\n"
+"POT-Creation-Date: 2025-09-09 04:54+0900\n"
+"PO-Revision-Date: 2025-09-09 04:54+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. ~ MOD name
+#: mods/fungal_reality_shift/modinfo.json
+msgid "Fungal Reality Shift"
+msgstr "キノコシフト"
+
+#. ~ Description of MOD "Fungal Reality Shift"
+#: mods/fungal_reality_shift/modinfo.json
+msgid ""
+"A MOD where eating a specific item causes random terrain changes around the "
+"player, inspired by Noita."
+msgstr "特定のアイテムを食べるとプレイヤー周囲の地形がランダムに変化するMODです。Noitaにインスパイアされました。"
+
+#. ~ Name of effect type id "fungal_reality_shift_active"
+#: mods/fungal_reality_shift/effects/fungal_reality_shift_active.json
+msgid "Fungal Reality Shift Active"
+msgstr "キノコシフト有効"
+
+#. ~ Description of effect type "Fungal Reality Shift Active"
+#: mods/fungal_reality_shift/effects/fungal_reality_shift_active.json
+msgid ""
+"The world around you is shifting and changing due to the fungal spore's "
+"effects."
+msgstr "キノコの胞子の効果により、周囲の世界が変化し続けています。"
+
+#. ~ Player message in effect in EoC "EOC_FRS_ACTIVATE"
+#: mods/fungal_reality_shift/effects_on_condition/terrain_transformation/terrain_transformation.json
+msgid "You feel the world around you begin to shift and change..."
+msgstr "周囲の世界が変化し始めているのを感じます..."
+
+#. ~ Player message in effect in EoC "EOC_FRS_CHECK_ACTIVE"
+#: mods/fungal_reality_shift/effects_on_condition/terrain_transformation/terrain_transformation.json
+msgid "The world around you shifts and changes..."
+msgstr "周囲の世界が変化しています..."
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/fungal_spore.json
+msgid "fungal spore"
+msgid_plural "fungal spores"
+msgstr[0] "キノコの胞子"
+
+#. ~ Description of "fungal spore"
+#: mods/fungal_reality_shift/items/fungal_spore.json
+msgid ""
+"A strange spore that seems to pulse with otherworldly energy. Eating it "
+"might have unexpected effects."
+msgstr "異世界のエネルギーで脈動している奇妙な胞子です。これを食べると予期せぬ効果が起こるかもしれません。"
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/items_chocolate_chunk.json
+msgid "large chunk of chocolate"
+msgid_plural "large chunk of chocolates"
+msgstr[0] "チョコレートのかたまり"
+
+#. ~ Description of "large chunk of chocolate"
+#: mods/fungal_reality_shift/items/items_chocolate_chunk.json
+msgid ""
+"A large, heavy chunk of chocolate. It looks delicious, but it's too big to "
+"eat as is. You can break it down into smaller pieces."
+msgstr "大きな重たいチョコレートのかけらです。美味しそうですが、そのままでは食べきれません。小さなかけらに分割できます。"
+
+#. ~ Item name
+#: mods/fungal_reality_shift/items/liquid_fuel.json
+msgid "liquid fuel"
+msgid_plural "liquid fuel"
+msgstr[0] "液体燃料"
+
+#. ~ Description of "liquid fuel"
+#: mods/fungal_reality_shift/items/liquid_fuel.json
+msgid "A highly flammable liquid fuel. Not safe to drink."
+msgstr "非常に可燃性の高い液体燃料です。飲用は安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Whiskey"
+msgstr "ウイスキーの池"
+
+#. ~ Description of terrain "Pool of Whiskey"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A strong alcoholic beverage.  With a watertight container, you could gather "
+"whiskey from here. Not safe to drink as is."
+msgstr "強いアルコール飲料です。水漏れしない容器があればここでウイスキーを採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Milk"
+msgstr "ミルクの池"
+
+#. ~ Description of terrain "Pool of Milk"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A nutritious liquid.  With a watertight container, you could gather milk "
+"from here. Not safe to drink as is."
+msgstr "栄養価の高い液体です。水漏れしない容器があればここでミルクを採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Honey"
+msgstr "ハチミツの池"
+
+#. ~ Description of terrain "Pool of Honey"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A sweet, viscous liquid.  With a watertight container, you could gather "
+"honey from here. Not safe to drink as is."
+msgstr "甘く粘り気のある液体です。水漏れしない容器があればここでハチミツを採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Sap"
+msgstr "樹液の池"
+
+#. ~ Description of terrain "Pool of Sap"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A sticky, sweet liquid from trees.  With a watertight container, you could "
+"gather sap from here. Not safe to drink as is."
+msgstr "木から出る粘り気のある甘い液体です。水漏れしない容器があればここで樹液を採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Acid"
+msgstr "酸の池"
+
+#. ~ Description of terrain "Pool of Acid"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A highly corrosive liquid.  With a watertight container, you could gather "
+"acid from here. Not safe to drink as is."
+msgstr "非常に腐食性の高い液体です。水漏れしない容器があればここで酸を採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid "Pool of Fuel"
+msgstr "燃料の池"
+
+#. ~ Description of terrain "Pool of Fuel"
+#: mods/fungal_reality_shift/terrain/liquids.json
+msgid ""
+"A highly flammable liquid fuel.  With a watertight container, you could "
+"gather liquid fuel from here. Not safe to drink as is."
+msgstr "非常に可燃性の高い液体燃料です。水漏れしない容器があればここで液体燃料を採取できます。そのまま飲むのは安全ではありません。"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "Pure Gold Wall"
+msgstr "純金の壁"
+
+#. ~ Description of terrain "Pure Gold Wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid ""
+"A wall made of pure gold. It looks luxurious, but its strength is not very "
+"high."
+msgstr "純金でできた壁です。豪華に見えますが、強度はあまり高くありません。"
+
+#. ~ Bashing sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "clang!"
+msgstr "カラン！"
+
+#. ~ Bashing failed sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "whump!"
+msgstr "ドスン！"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "Chocolate Wall"
+msgstr "チョコレートの壁"
+
+#. ~ Description of terrain "Chocolate Wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "A wall made of chocolate. It looks delicious, but it's very fragile."
+msgstr "チョコレートでできた壁です。美味しそうですが、とても脆いです。"
+
+#. ~ Bashing sound
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "crunch!"
+msgstr "カリカリ！"
+
+#. ~ Terrain name
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid "portal wall"
+msgstr "ポータルの壁"
+
+#. ~ Description of terrain "portal wall"
+#: mods/fungal_reality_shift/terrain/walls.json
+msgid ""
+"A mysterious wall that seems to shimmer with otherworldly energy. Monsters "
+"periodically emerge from it."
+msgstr "異世界のエネルギーで輝いている神秘的な壁です。ここから定期的にモンスターが出現します。"
