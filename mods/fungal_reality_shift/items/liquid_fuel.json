@@ -3,6 +3,7 @@
     "type": "ITEM",
     "subtypes": [ "COMESTIBLE" ],
     "id": "liquid_fuel",
+    "looks_like": "gasoline",
     "name": { "str_sp": "liquid fuel" },
     "weight": "250 g",
     "color": "light_red",

@@ -3,6 +3,7 @@
     "type": "ITEM",
     "subtypes": [ "COMESTIBLE" ],
     "id": "fungal_spore",
+    "looks_like": "yeast",
     "comestible_type": "FOOD",
     "category": "food",
     "name": "fungal spore",
