@@ -1,0 +1,61 @@
+name: Create Release with Assets
+
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+
+jobs:
+  build_and_release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build And archive production assets
+        run: ./tools/build.sh
+
+      - name: Get tag message
+        id: tag_message
+        run: |
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          MESSAGE=$(git tag -l --format='%(contents:body)' "$TAG_NAME")
+          echo "message<<EOF" >> $GITHUB_OUTPUT
+          echo "$MESSAGE" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        id: create_release
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const { repo: { owner, repo }, ref } = context;
+            const tag_name = ref.replace('refs/tags/', '');
+            const release_name = `Release ${tag_name}`;
+            const body = process.env.TAG_MESSAGE || `Release notes for ${tag_name}`;
+            const draft = false;
+            const prerelease = false;
+            
+            const { data } = await github.rest.repos.createRelease({
+              owner,
+              repo,
+              tag_name,
+              name: release_name,
+              body,
+              draft,
+              prerelease
+            });
+            
+            core.setOutput('upload_url', data.upload_url);
+            core.setOutput('id', data.id);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Release Asset
+        run: |
+          gh release upload ${{ github.ref_name }} ./fungal_reality_shift.zip#fungal_reality_shift-${{ github.ref_name }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
