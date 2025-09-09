@@ -22,77 +22,87 @@ A MOD where eating a specific item causes random terrain changes around the play
 mods/fungal_reality_shift/
 ├── modinfo.json
 ├── README.md
-├── terrain_liquids.json
-├── terrain_walls.json
+├── CHANGELOG.md
 ├── effects/
 │   └── fungal_reality_shift_active.json
 ├── effects_on_condition/
+│   ├── portal_monster_spawn.json
+│   ├── portal_wall_check.json
 │   └── terrain_transformation/
 │       ├── terrain_transformation.json
-│       ├── acid/
-│       │   ├── terrain_transformation_acid_random.json
-│       │   └── terrain_transformation_acid.json
-│       ├── brick_wall/
-│       │   └── terrain_transformation_brick_wall.json
-│       ├── concrete_wall/
-│       │   └── terrain_transformation_concrete_wall.json
-│       ├── fungus_wall/
-│       │   └── terrain_transformation_fungus_wall.json
-│       ├── honey/
-│       │   ├── terrain_transformation_honey_random.json
-│       │   └── terrain_transformation_honey.json
-│       ├── lava/
-│       │   ├── terrain_transformation_lava_random.json
-│       │   └── terrain_transformation_lava.json
-│       ├── liquid_fuel/
-│       │   ├── terrain_transformation_gasoline_random.json
-│       │   └── terrain_transformation_liquid_fuel.json
-│       ├── milk/
-│       │   ├── terrain_transformation_milk_random.json
-│       │   └── terrain_transformation_milk.json
-│       ├── paper/
-│       │   └── terrain_transformation_paper.json
-│       ├── sap/
-│       │   ├── terrain_transformation_sap_random.json
-│       │   └── terrain_transformation_sap.json
-│       ├── sconc_wall/
-│       │   └── terrain_transformation_sconc_wall.json
-│       ├── sewage/
-│       │   ├── terrain_transformation_sewage_random.json
-│       │   └── terrain_transformation_sewage.json
-│       ├── slime/
-│       │   ├── terrain_transformation_slime_random.json
-│       │   └── terrain_transformation_slime.json
-│       ├── strconc_wall/
-│       │   └── terrain_transformation_strconc_wall.json
-│       ├── wall/
-│       │   └── terrain_transformation_wall.json
-│       ├── wall_log/
-│       │   └── terrain_transformation_wall_log.json
-│       ├── wall_metal/
-│       │   └── terrain_transformation_wall_metal.json
-│       ├── wall_resin/
-│       │   └── terrain_transformation_wall_resin.json
-│       ├── wall_wood/
-│       │   └── terrain_transformation_wall_wood.json
-│       ├── water_dp/
-│       │   ├── terrain_transformation_water_dp_random.json
-│       │   └── terrain_transformation_water_dp.json
-│       ├── water_sh/
-│       │   ├── terrain_transformation_water_sh_random.json
-│       │   └── terrain_transformation_water_sh.json
-│       └── whiskey/
-│           ├── terrain_transformation_whiskey_random.json
-│           └── terrain_transformation_whiskey.json
+│       ├── liquid/
+│       │   ├── dynamic_eoc.json
+│       │   ├── terrain_transformation_acid.json
+│       │   ├── terrain_transformation_honey.json
+│       │   ├── terrain_transformation_lava.json
+│       │   ├── terrain_transformation_liquid_fuel.json
+│       │   ├── terrain_transformation_milk.json
+│       │   ├── terrain_transformation_sap.json
+│       │   ├── terrain_transformation_sewage.json
+│       │   ├── terrain_transformation_slime.json
+│       │   ├── terrain_transformation_water_dp.json
+│       │   ├── terrain_transformation_water_sh.json
+│       │   └── terrain_transformation_whiskey.json
+│       └── wall/
+│           ├── dynamic_eoc.json
+│           ├── terrain_transformation_brick_wall.json
+│           ├── terrain_transformation_chocolate_wall.json
+│           ├── terrain_transformation_concrete_wall.json
+│           ├── terrain_transformation_fungus_wall.json
+│           ├── terrain_transformation_gold_wall.json
+│           ├── terrain_transformation_paper.json
+│           ├── terrain_transformation_sconc_wall.json
+│           ├── terrain_transformation_strconc_wall.json
+│           ├── terrain_transformation_wall_log.json
+│           ├── terrain_transformation_wall_metal.json
+│           ├── terrain_transformation_wall_portal.json
+│           ├── terrain_transformation_wall_resin.json
+│           ├── terrain_transformation_wall_wood.json
+│           └── terrain_transformation_wall.json
 ├── items/
 │   ├── fungal_spore.json
 │   ├── items_chocolate_chunk.json
 │   ├── json_flag_flammable.json
 │   └── liquid_fuel.json
+├── lang/
+│   └── mo/
+│       └── ja/
+│           └── LC_MESSAGES/
 ├── recipes/
 │   ├── .gitkeep
 │   ├── fungal_spore_creation.json
 │   └── recipe_liquid_fuel.json
+├── ter_furn_transform/
+│   ├── liquid/
+│   │   ├── terrain_transformation_acid.json
+│   │   ├── terrain_transformation_honey.json
+│   │   ├── terrain_transformation_lava.json
+│   │   ├── terrain_transformation_liquid_fuel.json
+│   │   ├── terrain_transformation_milk.json
+│   │   ├── terrain_transformation_sap.json
+│   │   ├── terrain_transformation_sewage.json
+│   │   ├── terrain_transformation_slime.json
+│   │   ├── terrain_transformation_water_dp.json
+│   │   ├── terrain_transformation_water_sh.json
+│   │   └── terrain_transformation_whiskey.json
+│   └── wall/
+│       ├── terrain_transformation_brick_wall.json
+│       ├── terrain_transformation_chocolate_wall.json
+│       ├── terrain_transformation_concrete_wall.json
+│       ├── terrain_transformation_fungus_wall.json
+│       ├── terrain_transformation_gold_wall.json
+│       ├── terrain_transformation_paper.json
+│       ├── terrain_transformation_sconc_wall.json
+│       ├── terrain_transformation_strconc_wall.json
+│       ├── terrain_transformation_wall_log.json
+│       ├── terrain_transformation_wall_metal.json
+│       ├── terrain_transformation_wall_portal.json
+│       ├── terrain_transformation_wall_resin.json
+│       ├── terrain_transformation_wall_wood.json
+│       └── terrain_transformation_wall.json
+└── terrain/
+    ├── liquids.json
+    └── walls.json
 ```
 
 ## Testing

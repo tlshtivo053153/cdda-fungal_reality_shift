@@ -7,6 +7,6 @@
     "description": "A MOD where eating a specific item causes random terrain changes around the player, inspired by Noita.",
     "category": "magical",
     "dependencies": [ "dda" ],
-    "version": "v1.0.0"
+    "version": "v1.2.0"
   }
 ]
