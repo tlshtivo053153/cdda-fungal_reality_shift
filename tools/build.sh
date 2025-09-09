@@ -45,6 +45,10 @@ echo "Compiling PO file to MO file..."
 msgfmt "$PO_FILE" -o "$MO_FILE"
 check_command "msgfmt $PO_FILE -o $MO_FILE"
 
+echo "Removing existing ZIP file (if any)..."
+rm -f "$ZIP_FILE"
+check_command "rm -f $ZIP_FILE"
+
 # Create ZIP file
 echo "Creating ZIP file..."
 zip -r "$ZIP_FILE" "$MOD_DIR"
