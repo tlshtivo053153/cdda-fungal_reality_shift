@@ -107,7 +107,3 @@ mods/fungal_reality_shift/
 
 ## Known Issues
 - None at this time.
-
-## Changelog
-- v1.1.0: Added chocolate-themed items and updated file structure
-- v1.0.0: Initial release
