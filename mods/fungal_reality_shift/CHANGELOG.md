@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 1.3.0 - 2025-09-15
+
+### Added
+- Add tileset generation tool and source images
+- Add tileset generation with dependency check to build script
+- Add removal of existing ZIP file before building
+- Add 'looks_like' property to fungal spore and liquid fuel items
+
+### Changed
+- Add python dependencies installation to release workflow
+- Add execute permissions to tool scripts
+
 ## 1.2.0 - 2025-09-09
 
 ### Added

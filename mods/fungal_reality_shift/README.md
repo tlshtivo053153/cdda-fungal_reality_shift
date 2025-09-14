@@ -103,6 +103,7 @@ mods/fungal_reality_shift/
 └── terrain/
     ├── liquids.json
     └── walls.json
+├── tileset/
 ```
 
 ## Testing
