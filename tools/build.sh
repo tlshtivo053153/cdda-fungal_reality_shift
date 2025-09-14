@@ -45,6 +45,24 @@ echo "Compiling PO file to MO file..."
 msgfmt "$PO_FILE" -o "$MO_FILE"
 check_command "msgfmt $PO_FILE -o $MO_FILE"
 
+# Check if python3 is available
+if ! command -v python3 &> /dev/null
+then
+    echo "Error: python3 is not installed or not in PATH." >&2
+    exit 1
+fi
+
+# Check if Pillow is available
+if ! python3 -c "import PIL" 2>/dev/null; then
+    echo "Error: Pillow is not installed. Please install it using 'pip install Pillow'." >&2
+    exit 1
+fi
+
+# Create tileset
+echo "Creating tileset..."
+python3 tools/create_tileset.py
+check_command "python3 tools/create_tileset.py"
+
 echo "Removing existing ZIP file (if any)..."
 rm -f "$ZIP_FILE"
 check_command "rm -f $ZIP_FILE"
